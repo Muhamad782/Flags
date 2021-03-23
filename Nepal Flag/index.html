@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="flag">
+        <div class="stick"></div>
+        <div class="triangle-right">
+            <div class="triangle-right-2">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <div class="u"></div>
+            </div>
+        </div>
+        <div class="triangle-right">
+            <div class="triangle-right-3">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    .flag{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .flag .stick{
+        width: 5px;
+        height: 400px;
+        background-color: brown;
+        position: absolute;
+        top: 71%;
+        left: 1%;
+        transform: translate(-50%, -50%);
+    }
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-left: 350px solid #003893;
+        border-bottom: 40px solid transparent;
+    }
+    .triangle-right-2{
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 175px solid #DC143C;
+        border-bottom: 40px solid transparent;
+        position: absolute;
+        top: 10%;
+        right: 40%;
+        transform: rotate(2deg);
+    }
+    .triangle-right-3{
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 175px solid #DC143C;
+        border-bottom: 40px solid transparent;
+        position: absolute;
+        top: 60%;
+        right: 40%;
+        transform: rotate(2deg);
+    }
+    .triangle-right-3 .fa-sun-o{
+        font-size: 50px;
+        color: #fff;
+        margin-left: -160px;
+        margin-top: -50px;
+    }
+    .triangle-right-2 .fa-sun-o{
+        font-size: 40px;
+        color: #fff;
+        margin-left: -155px;
+        margin-top: -50px;
+    }
+    .triangle-right-2 .u{
+       width: 70px;
+       height: 70px;
+       background-color: transparent;
+       border-bottom: 10px solid #fff;
+       border-radius: 50%;
+       margin-left: -170px;
+       margin-top: -78px;
+    }
+    </style>
