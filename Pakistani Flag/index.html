@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="flag">
+        <div class="stick"></div>
+        <div class="white-area"></div>
+        <div class="green-area">
+            <div class="icon">
+                <div class="moon">
+                    <i class="fa fa-moon-o"></i>
+                </div>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
+   </html>
+
+   <style>
+       body{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           background-color: #d1d1d1;
+       }
+       .flag{
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           display: flex;
+       }
+       .flag .white-area{
+           width: 100px;
+           height: 230px;
+           background-color: #fff;
+       }
+       .flag .green-area{
+           width: 320px;
+           height: 230px;
+           background-color: green;
+       }
+       .flag .stick{
+           width: 5px;
+           height: 400px;
+           background-color: brown;
+       }
+       .flag .icon{
+           position: absolute;
+           top: 26%;
+           left: 60%;
+           transform: translate(-50%, -50%);
+           display: flex;
+       }
+       .flag .icon .moon{
+           font-size: 100px;
+           color: #fff;
+       }
+       .flag .icon .star{
+           font-size: 40px;
+           color: #fff;
+       }
+   </style>
